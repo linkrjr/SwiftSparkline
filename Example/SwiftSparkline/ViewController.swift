@@ -7,17 +7,26 @@
 //
 
 import UIKit
+import SwiftSparkline
 
 class ViewController: UIViewController {
 
+    let sparklineView1 = SparklineView(frame: CGRectZero)
+    let sparklineView2 = SparklineView(frame: CGRectZero)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.sparklineView1.frame = CGRectMake(0, 120, self.view.frame.size.width, 50)
+        self.view.addSubview(self.sparklineView1)
+        self.sparklineView1.show([10.0, 20.0, 40.0, 30.0, 15.0])
+        
+        self.sparklineView2.frame = CGRectMake(0, 180, self.view.frame.size.width, 50)
+        self.sparklineView2.lineColor = UIColor.redColor()
+        self.sparklineView2.fillColor = UIColor.purpleColor()
+        self.view.addSubview(self.sparklineView2)
+        self.sparklineView2.show([10.0, 20.0, 40.0, 30.0, 15.0].reverse())
+        
     }
 
 }

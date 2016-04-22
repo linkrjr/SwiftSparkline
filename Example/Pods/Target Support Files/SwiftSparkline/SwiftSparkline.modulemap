@@ -1,0 +1,6 @@
+framework module SwiftSparkline {
+  umbrella header "SwiftSparkline-umbrella.h"
+
+  export *
+  module * { export * }
+}

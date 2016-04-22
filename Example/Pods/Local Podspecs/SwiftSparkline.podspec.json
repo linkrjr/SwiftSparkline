@@ -1,0 +1,24 @@
+{
+  "name": "SwiftSparkline",
+  "version": "0.1.0",
+  "summary": "Sparklines made easy",
+  "description": "SwiftSparkline helps you draw [sparklines](https://en.wikipedia.org/wiki/Sparkline)",
+  "homepage": "https://github.com/linkrjr/SwiftSparkline",
+  "license": "MIT",
+  "authors": {
+    "Ronaldo Gomes": "ronaldo.junior@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SwiftSparkline.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftSparkline/Classes/**/*",
+  "resource_bundles": {
+    "SwiftSparkline": [
+      "SwiftSparkline/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SwiftSparkline_Example {
+  umbrella header "Pods-SwiftSparkline_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

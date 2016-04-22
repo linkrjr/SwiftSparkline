@@ -1,0 +1,14 @@
+PODS:
+  - SwiftSparkline (0.1.0)
+
+DEPENDENCIES:
+  - SwiftSparkline (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftSparkline:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftSparkline: c30edb7bdcb8e1295b58df52db8b0df54e899e33
+
+COCOAPODS: 0.39.0

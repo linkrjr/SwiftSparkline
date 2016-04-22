@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftSparkline"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SwiftSparkline."
+  s.summary          = "Sparklines made easy"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,9 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+                        SwiftSparkline helps you draw [sparklines](https://en.wikipedia.org/wiki/Sparkline)
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SwiftSparkline"
+  s.homepage         = "https://github.com/linkrjr/SwiftSparkline"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ronaldo Gomes" => "ronaldo.junior@gmail.com" }
