@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftSparkline: c30edb7bdcb8e1295b58df52db8b0df54e899e33
+  SwiftSparkline: 6501df0649bd3e8464fbdc74fa11cbd64ef600fa
 
 COCOAPODS: 0.39.0

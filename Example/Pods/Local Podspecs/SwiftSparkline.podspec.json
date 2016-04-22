@@ -9,7 +9,7 @@
     "Ronaldo Gomes": "ronaldo.junior@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SwiftSparkline.git",
+    "git": "https://github.com/linkrjr/SwiftSparkline",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -20,5 +20,7 @@
     "SwiftSparkline": [
       "SwiftSparkline/Assets/*.png"
     ]
-  }
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit"
 }

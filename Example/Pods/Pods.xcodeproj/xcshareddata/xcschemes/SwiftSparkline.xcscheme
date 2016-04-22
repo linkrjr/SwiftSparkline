@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F0FDC9D980AB1D787BA5DFE0'
+               BlueprintIdentifier = 'ADD2C7B4C96A8D39899426DF'
                BlueprintName = 'SwiftSparkline'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SwiftSparkline.framework'>
