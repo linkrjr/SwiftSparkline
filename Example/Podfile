@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftSparkline_Example', :exclusive => true do
+  pod 'SwiftSparkline', :path => '../'
+end
+
+target 'SwiftSparkline_Tests', :exclusive => true do
+  pod 'SwiftSparkline', :path => '../'
+
+  
+end
