@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     let sparklineView1 = SparklineView(frame: CGRectZero)
     let sparklineView2 = SparklineView(frame: CGRectZero)
+    let sparklineView3 = SparklineView(frame: CGRectZero)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,12 @@ class ViewController: UIViewController {
         self.sparklineView2.fillColor = UIColor.purpleColor()
         self.view.addSubview(self.sparklineView2)
         self.sparklineView2.show([10.0, 20.0, 40.0, 30.0, 15.0].reverse())
+
+        self.sparklineView3.frame = CGRectMake(0, 250, self.view.frame.size.width, 50)
+        self.sparklineView3.lineColor = UIColor.redColor()
+        self.sparklineView3.fillColor = UIColor.purpleColor()
+        self.view.addSubview(self.sparklineView3)
+        self.sparklineView3.show([15.0, 50.0])
         
     }
 

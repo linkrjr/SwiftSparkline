@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ronaldo Gomes" => "ronaldo.junior@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SwiftSparkline.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/linkrjr/SwiftSparkline", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
     'SwiftSparkline' => ['SwiftSparkline/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

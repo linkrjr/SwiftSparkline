@@ -31,6 +31,8 @@ public class SparklineView: UIView {
     override public func drawRect(rect: CGRect) {
         super.drawRect(rect)
         
+        guard self.values.count >= 2 else { return }
+        
         let ctx = UIGraphicsGetCurrentContext()
         
         CGContextSetRGBFillColor(ctx, 110.0/255.0, 70.0/255.0, 150.0/255.0, 1.0)
