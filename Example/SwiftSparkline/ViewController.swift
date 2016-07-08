@@ -18,26 +18,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.sparklineView1.frame = CGRectMake((CGRectGetWidth(self.view.frame)/2)-100, 120, 200, 100)
+        self.sparklineView1.frame = CGRectMake(0, 120, self.view.frame.size.width, 50)
         self.view.addSubview(self.sparklineView1)
-        self.sparklineView1.show([
-            14.7777777777778,
-            14.71,
-            16.51,
-            17.62,
-            18.57])
+        self.sparklineView1.backgroundColor = UIColor.yellowColor()
+        self.sparklineView1.show([10.2, 8.8])
         
-//        self.sparklineView2.frame = CGRectMake(0, 180, self.view.frame.size.width, 50)
-//        self.sparklineView2.lineColor = UIColor.redColor()
-//        self.sparklineView2.fillColor = UIColor.purpleColor()
-//        self.view.addSubview(self.sparklineView2)
-//        self.sparklineView2.show([10.0, 20.0, 40.0, 30.0, 15.0].reverse())
-//
-//        self.sparklineView3.frame = CGRectMake(0, 250, self.view.frame.size.width, 50)
-//        self.sparklineView3.lineColor = UIColor.redColor()
-//        self.sparklineView3.fillColor = UIColor.purpleColor()
-//        self.view.addSubview(self.sparklineView3)
-//        self.sparklineView3.show([15.0, 50.0])
+        self.sparklineView2.frame = CGRectMake(0, 180, self.view.frame.size.width, 50)
+        self.sparklineView2.backgroundColor = UIColor.yellowColor()
+        self.view.addSubview(self.sparklineView2)
+        self.sparklineView2.show([10.0, 20.0, 40.0, 30.0, 15.0].reverse())
+
+        self.sparklineView3.frame = CGRectMake(0, 240, self.view.frame.size.width, 50)
+        self.sparklineView3.backgroundColor = UIColor.yellowColor()
+        self.view.addSubview(self.sparklineView3)
+        self.sparklineView3.show([15.0])
         
     }
 
